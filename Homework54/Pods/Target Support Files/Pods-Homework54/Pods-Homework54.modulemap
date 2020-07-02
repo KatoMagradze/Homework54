@@ -1,0 +1,6 @@
+framework module Pods_Homework54 {
+  umbrella header "Pods-Homework54-umbrella.h"
+
+  export *
+  module * { export * }
+}

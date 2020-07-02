@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08C9338D6127C07BAEE57B50D1099FAE /* ShimmerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B1B44A47A7ECDCDF92AF560B4E2D547 /* ShimmerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		139AE85AD7D5D1503D8C25D4F29F6744 /* ShimmeringLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022D633127D74536A384BB9E57E92E56 /* ShimmeringLayer.swift */; };
+		2230C391F0A5735A71B634E0D373D659 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2B06850E0B5BD91546E547C90C5D56C0 /* ShimmerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9491DC9359EC198563D3A58B527E93CB /* ShimmerSwift-dummy.m */; };
+		2D819210AC7C964F61AD98FC53DA6CE2 /* ShimmeringMaskLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C9BBD95B4E9698EA8A0F3E3D3D0AF /* ShimmeringMaskLayer.swift */; };
+		3EBF7F57AE548322B672B1A0C2CAD7DB /* ShimmeringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A03B1E2F00EADFFDF274A8F4B82708 /* ShimmeringView.swift */; };
+		71DDEE73853FC66DD05C0C92BF44E5BE /* Pods-Homework54-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AFD430100D6255980236211912F0E4 /* Pods-Homework54-dummy.m */; };
+		7E7087E95B23FFB8975894DBF17F4E05 /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817C1D258F6033718775CDEC30542FC3 /* Shimmer.swift */; };
+		A24663D6A711C000DE0B3D86787CCEF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E501244C94C79AAB1EEC6F79D2B5A2C9 /* Pods-Homework54-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 445A696DEAFCC524AEAF4F45A8BA183F /* Pods-Homework54-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E3F6678F5544B096D239585BC892D8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF2974CEBD4F57BEFE88471BC9F6361A;
+			remoteInfo = ShimmerSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		022D633127D74536A384BB9E57E92E56 /* ShimmeringLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShimmeringLayer.swift; path = Shimmer/ShimmeringLayer.swift; sourceTree = "<group>"; };
+		06DFC559B04E461BFC890DFD45CFACAD /* Pods_Homework54.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Homework54.framework; path = "Pods-Homework54.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C01CC457180308DA88B8934F0503CFB /* ShimmerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ShimmerSwift.modulemap; sourceTree = "<group>"; };
+		0E4BC394009DCF40C1D44D0AA5B1F6E7 /* Pods-Homework54.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Homework54.modulemap"; sourceTree = "<group>"; };
+		1C1AE5AF57B1BCDD4DF0E512555BAE5E /* Pods-Homework54-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Homework54-Info.plist"; sourceTree = "<group>"; };
+		312071C1A496CB7847A8E808516E6C4F /* Pods-Homework54-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Homework54-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		36AFD430100D6255980236211912F0E4 /* Pods-Homework54-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Homework54-dummy.m"; sourceTree = "<group>"; };
+		3726C2407CD9097E75E4326EDD7CB9F4 /* Pods-Homework54-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Homework54-frameworks.sh"; sourceTree = "<group>"; };
+		3A542098FFA2A8CBC982DCDA7E1D3FD8 /* Pods-Homework54.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Homework54.debug.xcconfig"; sourceTree = "<group>"; };
+		434C9BBD95B4E9698EA8A0F3E3D3D0AF /* ShimmeringMaskLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShimmeringMaskLayer.swift; path = Shimmer/ShimmeringMaskLayer.swift; sourceTree = "<group>"; };
+		445A696DEAFCC524AEAF4F45A8BA183F /* Pods-Homework54-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Homework54-umbrella.h"; sourceTree = "<group>"; };
+		6B1B44A47A7ECDCDF92AF560B4E2D547 /* ShimmerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShimmerSwift-umbrella.h"; sourceTree = "<group>"; };
+		6EF94209853CE0767B90275C77E8AC0F /* ShimmerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShimmerSwift-prefix.pch"; sourceTree = "<group>"; };
+		817C1D258F6033718775CDEC30542FC3 /* Shimmer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shimmer.swift; path = Shimmer/Shimmer.swift; sourceTree = "<group>"; };
+		93027197DCE144EF9A5DDF15E6C717AA /* ShimmerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ShimmerSwift.framework; path = ShimmerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9491DC9359EC198563D3A58B527E93CB /* ShimmerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ShimmerSwift-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3A63C83A1B1E3578C765B682E7C0C0A /* Pods-Homework54.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Homework54.release.xcconfig"; sourceTree = "<group>"; };
+		C5A03B1E2F00EADFFDF274A8F4B82708 /* ShimmeringView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShimmeringView.swift; path = Shimmer/ShimmeringView.swift; sourceTree = "<group>"; };
+		CB439551E8A8380BF6BD527B77485288 /* ShimmerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ShimmerSwift-Info.plist"; sourceTree = "<group>"; };
+		CBA52C802BC2FDB23A6425E51143F3EC /* Pods-Homework54-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Homework54-acknowledgements.plist"; sourceTree = "<group>"; };
+		D3038535EC7D0CB03C4978A4312E6CB3 /* ShimmerSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShimmerSwift.debug.xcconfig; sourceTree = "<group>"; };
+		FDB8E6300AEA8C87B928E153539B50E3 /* ShimmerSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShimmerSwift.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22C547582FEB10AE8FC29FDA6C182D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24663D6A711C000DE0B3D86787CCEF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2BA3775A3853C9345136AFF3DC8F7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2230C391F0A5735A71B634E0D373D659 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48929D70C83F537E86BDCF35EA3E4D67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EA20A73306EA285CE5447057DF4A341 /* ShimmerSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4EA20A73306EA285CE5447057DF4A341 /* ShimmerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				817C1D258F6033718775CDEC30542FC3 /* Shimmer.swift */,
+				022D633127D74536A384BB9E57E92E56 /* ShimmeringLayer.swift */,
+				434C9BBD95B4E9698EA8A0F3E3D3D0AF /* ShimmeringMaskLayer.swift */,
+				C5A03B1E2F00EADFFDF274A8F4B82708 /* ShimmeringView.swift */,
+				D48C7296F00B80BED300ACBF86347532 /* Support Files */,
+			);
+			name = ShimmerSwift;
+			path = ShimmerSwift;
+			sourceTree = "<group>";
+		};
+		A6F62CF0C3DFE45A4856388619686BF4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C393E7C12103E39964744F6C60BD2173 /* Pods-Homework54 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C393E7C12103E39964744F6C60BD2173 /* Pods-Homework54 */ = {
+			isa = PBXGroup;
+			children = (
+				0E4BC394009DCF40C1D44D0AA5B1F6E7 /* Pods-Homework54.modulemap */,
+				312071C1A496CB7847A8E808516E6C4F /* Pods-Homework54-acknowledgements.markdown */,
+				CBA52C802BC2FDB23A6425E51143F3EC /* Pods-Homework54-acknowledgements.plist */,
+				36AFD430100D6255980236211912F0E4 /* Pods-Homework54-dummy.m */,
+				3726C2407CD9097E75E4326EDD7CB9F4 /* Pods-Homework54-frameworks.sh */,
+				1C1AE5AF57B1BCDD4DF0E512555BAE5E /* Pods-Homework54-Info.plist */,
+				445A696DEAFCC524AEAF4F45A8BA183F /* Pods-Homework54-umbrella.h */,
+				3A542098FFA2A8CBC982DCDA7E1D3FD8 /* Pods-Homework54.debug.xcconfig */,
+				B3A63C83A1B1E3578C765B682E7C0C0A /* Pods-Homework54.release.xcconfig */,
+			);
+			name = "Pods-Homework54";
+			path = "Target Support Files/Pods-Homework54";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				48929D70C83F537E86BDCF35EA3E4D67 /* Pods */,
+				FBE3B75E7E04DDE42489E14FEF5EE6A2 /* Products */,
+				A6F62CF0C3DFE45A4856388619686BF4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D48C7296F00B80BED300ACBF86347532 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C01CC457180308DA88B8934F0503CFB /* ShimmerSwift.modulemap */,
+				9491DC9359EC198563D3A58B527E93CB /* ShimmerSwift-dummy.m */,
+				CB439551E8A8380BF6BD527B77485288 /* ShimmerSwift-Info.plist */,
+				6EF94209853CE0767B90275C77E8AC0F /* ShimmerSwift-prefix.pch */,
+				6B1B44A47A7ECDCDF92AF560B4E2D547 /* ShimmerSwift-umbrella.h */,
+				D3038535EC7D0CB03C4978A4312E6CB3 /* ShimmerSwift.debug.xcconfig */,
+				FDB8E6300AEA8C87B928E153539B50E3 /* ShimmerSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ShimmerSwift";
+			sourceTree = "<group>";
+		};
+		FBE3B75E7E04DDE42489E14FEF5EE6A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06DFC559B04E461BFC890DFD45CFACAD /* Pods_Homework54.framework */,
+				93027197DCE144EF9A5DDF15E6C717AA /* ShimmerSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0758BBAA4DF913894E43124F763F5C30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E501244C94C79AAB1EEC6F79D2B5A2C9 /* Pods-Homework54-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E28F5E076644CED6B235E9468CA9DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C9338D6127C07BAEE57B50D1099FAE /* ShimmerSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02626563B8DAC37D0B91996FA5C05CDF /* Pods-Homework54 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEAB43FE69BB2CEFC68A751BD73EB055 /* Build configuration list for PBXNativeTarget "Pods-Homework54" */;
+			buildPhases = (
+				0758BBAA4DF913894E43124F763F5C30 /* Headers */,
+				D8728A80CE64EE353464266DC3454A42 /* Sources */,
+				22C547582FEB10AE8FC29FDA6C182D43 /* Frameworks */,
+				47F457E8DD2AFF4321CC471AF3218390 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26C1401B568C70D42E2920EF55A19299 /* PBXTargetDependency */,
+			);
+			name = "Pods-Homework54";
+			productName = "Pods-Homework54";
+			productReference = 06DFC559B04E461BFC890DFD45CFACAD /* Pods_Homework54.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF2974CEBD4F57BEFE88471BC9F6361A /* ShimmerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AC10C39C128CFEB599759420B7023C /* Build configuration list for PBXNativeTarget "ShimmerSwift" */;
+			buildPhases = (
+				F4E28F5E076644CED6B235E9468CA9DA /* Headers */,
+				D176A6925D0A0D3B329EF12783B083D5 /* Sources */,
+				BF2BA3775A3853C9345136AFF3DC8F7B /* Frameworks */,
+				231CF37944EE4D6B265E456BF618B976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShimmerSwift;
+			productName = ShimmerSwift;
+			productReference = 93027197DCE144EF9A5DDF15E6C717AA /* ShimmerSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FBE3B75E7E04DDE42489E14FEF5EE6A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02626563B8DAC37D0B91996FA5C05CDF /* Pods-Homework54 */,
+				BF2974CEBD4F57BEFE88471BC9F6361A /* ShimmerSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		231CF37944EE4D6B265E456BF618B976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F457E8DD2AFF4321CC471AF3218390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D176A6925D0A0D3B329EF12783B083D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7087E95B23FFB8975894DBF17F4E05 /* Shimmer.swift in Sources */,
+				139AE85AD7D5D1503D8C25D4F29F6744 /* ShimmeringLayer.swift in Sources */,
+				2D819210AC7C964F61AD98FC53DA6CE2 /* ShimmeringMaskLayer.swift in Sources */,
+				3EBF7F57AE548322B672B1A0C2CAD7DB /* ShimmeringView.swift in Sources */,
+				2B06850E0B5BD91546E547C90C5D56C0 /* ShimmerSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8728A80CE64EE353464266DC3454A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71DDEE73853FC66DD05C0C92BF44E5BE /* Pods-Homework54-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26C1401B568C70D42E2920EF55A19299 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShimmerSwift;
+			target = BF2974CEBD4F57BEFE88471BC9F6361A /* ShimmerSwift */;
+			targetProxy = 1E3F6678F5544B096D239585BC892D8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21A3E988B266BAC052C442F4AB6362A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3A63C83A1B1E3578C765B682E7C0C0A /* Pods-Homework54.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Homework54/Pods-Homework54-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Homework54/Pods-Homework54.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		276D55BA854DB14C22880E1AB6E477E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDB8E6300AEA8C87B928E153539B50E3 /* ShimmerSwift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ShimmerSwift/ShimmerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShimmerSwift/ShimmerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ShimmerSwift/ShimmerSwift.modulemap";
+				PRODUCT_MODULE_NAME = ShimmerSwift;
+				PRODUCT_NAME = ShimmerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		27E009D8D7821662489A8704E88196A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A542098FFA2A8CBC982DCDA7E1D3FD8 /* Pods-Homework54.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Homework54/Pods-Homework54-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Homework54/Pods-Homework54.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39E29FD9964D3D56F2C35A8077EDE5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3038535EC7D0CB03C4978A4312E6CB3 /* ShimmerSwift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ShimmerSwift/ShimmerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShimmerSwift/ShimmerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ShimmerSwift/ShimmerSwift.modulemap";
+				PRODUCT_MODULE_NAME = ShimmerSwift;
+				PRODUCT_NAME = ShimmerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F5F04600F5626DC980F02790D1ED2C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18AC10C39C128CFEB599759420B7023C /* Build configuration list for PBXNativeTarget "ShimmerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39E29FD9964D3D56F2C35A8077EDE5F1 /* Debug */,
+				276D55BA854DB14C22880E1AB6E477E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */,
+				F5F04600F5626DC980F02790D1ED2C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEAB43FE69BB2CEFC68A751BD73EB055 /* Build configuration list for PBXNativeTarget "Pods-Homework54" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E009D8D7821662489A8704E88196A8 /* Debug */,
+				21A3E988B266BAC052C442F4AB6362A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
