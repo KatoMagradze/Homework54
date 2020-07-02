@@ -84,7 +84,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
         if let vc = detailsVC as? DetailsViewController {
             vc.name = charactersArray[indexPath.row].name
             vc.myImage = cell.myImageView.image!
-
+            vc.myObject = charactersArray[indexPath.row]
         }
         
         self.navigationController?.pushViewController(detailsVC, animated: true)

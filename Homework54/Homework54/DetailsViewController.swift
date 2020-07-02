@@ -19,14 +19,20 @@ class DetailsViewController: UIViewController {
     
     var myImage = UIImage()
     var name = ""
+    
+    var myObject: Result?
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         mainNameLabel.text = self.name
         characterImage.image = myImage
-        // Do any additional setup after loading the view.
+        nameLabel.text = "Name: " + self.name
+        speciesLabel.text = "Species: " + (myObject?.species.rawValue)!
+        genderLabel.text = "Gender: " + (myObject?.gender.rawValue)!
+        statusLabel.text = "Status: " + (myObject?.status.rawValue)!
+        
     }
-    
 
 }
